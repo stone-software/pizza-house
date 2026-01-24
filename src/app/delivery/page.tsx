@@ -68,14 +68,14 @@ export default function DeliveryPage() {
 
                         <div className="space-y-10">
                             <div className="flex gap-6 bg-white/5 p-8 rounded-3xl border border-white/10 hover:bg-white/10 transition-colors">
-                                <div className="p-4 bg-primary rounded-2xl text-white shrink-0 shadow-lg shadow-primary/20"><Wallet size={28} /></div>
+                                <div className="p-4 bg-primary rounded-2xl text-white shrink-0 shadow-lg shadow-primary/20 flex h-min justify-center items-center"><Wallet size={28} /></div>
                                 <div>
                                     <h4 className="font-bold text-lg mb-2">Готівкою кур'єру</h4>
                                     <p className="text-gray-400 font-medium">Ви можете оплатити замовлення готівкою при отриманні. Будь ласка, вкажіть у коментарі, якщо вам потрібна решта.</p>
                                 </div>
                             </div>
                             <div className="flex gap-6 bg-white/5 p-8 rounded-3xl border border-white/10 hover:bg-white/10 transition-colors">
-                                <div className="p-4 bg-primary rounded-2xl text-white shrink-0 shadow-lg shadow-primary/20"><CreditCard size={28} /></div>
+                                <div className="p-4 bg-primary rounded-2xl text-white shrink-0 shadow-lg shadow-primary/20 flex h-min justify-center items-center"><CreditCard size={28} /></div>
                                 <div>
                                     <h4 className="font-bold text-lg mb-2">Готівкою кур'єру</h4>
                                     <p className="text-gray-400 font-medium">Всі наші кур'єри мають при собі мобільні термінали. Просто оберіть цей варіант при оформленні замовлення.</p>
